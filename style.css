@@ -1,0 +1,140 @@
+/* 
+
+
+
+
+
+
+form {
+  background-color: greenyellow;
+  padding: 10px;
+  border: 10px double;
+  border-color: black;
+  margin: 20px;
+  margin-top: 100px;
+}
+.h1-blue {
+  color: #ff00ff;
+  background-color: aliceblue;
+
+}
+.h1-blue:hover{
+    color: #ff0000;
+    background-color: antiquewhite;
+    transition: 3s;
+    transition-timing-function: ease-in-out;
+}
+.h1-green {
+  color: green;
+}
+.h1-dim {
+  font-weight: 300;
+}
+body {
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#h1-greenid {
+  color: azure;
+  background-color: #ff00ff;
+  transform: rotateX('190deg');
+}
+
+.h1-blue,
+.h1-dim,
+.h1-green {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+* {
+  font-style: italic;
+}
+img {
+  width: 1800px;
+  height: 1000px;
+}
+
+@media screen and (min-width: 200px) {
+  img {
+    width: 600px;
+    height: 600px;
+    transform: rotate(-207deg);
+  }
+
+}
+
+
+.divclass{
+    transform: rotateX('100deg');
+} */
+
+.column {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+div[class^="sub"] {
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 10px;
+  border: 5px solid;
+  border-color: blue;
+}
+
+/* div:last-of-type{
+  background-color: aquamarine;
+} */
+
+/* p:empty {
+  background-color: black
+}
+
+div ~ div{
+  background-color: blueviolet;
+} */
+
+.grid {
+  display: grid;
+  background-color: chartreuse;
+  grid-template-columns: auto auto auto auto;
+  font-size: 30px;
+  font-weight: 700;
+}
+.subgrid {
+  background-color: cadetblue;
+  margin: 20px;
+  padding: 20px;
+}
+.largetext {
+  grid-row: 1/5;
+  background-image: linear-gradient(
+    45deg,
+    #ff9a9e 0%,
+    #fad0c4 99%,
+    #fad0c4 100%
+  );
+}
+
+* {
+  font-family: "Protest Riot", sans-serif, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bigsize {
+  font-size: 20px;
+}
+
+
+.material-symbols-outlined {
+  font-size: 200px;
+  font-variation-settings:
+
+  'FILL' 0,
+  'wght' 900,
+  'GRAD' 0,
+  'opsz' 49
+}
+
